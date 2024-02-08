@@ -1,0 +1,64 @@
+{
+    "name": "Luis Hernández PWA",
+    "short_name": "LH-PWA",
+    "description": "Aplicación PWA de materia Web Progresivas",
+    "background_color": "#black",
+    "theme_color":"#Grey",
+    "orientation":"landscape",
+    "display":"standalone",
+    "start_url":"./index.html?utm_source=web_app_manifest",
+    "scorpe":"./",
+    "lang":"es-MX",
+    "icons": [
+        {
+            "src":"./img/favicon-1024.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-512.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-384.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-256.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-192.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-128.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-96.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-64.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-32.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/favicon-16.png",
+            "sizes":"1024x1024",
+            "type":"image/png"
+        }
+    ]
+}

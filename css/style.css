@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cambié el fondo a negro */
+    color: #fff; /* Cambié el color del texto a blanco */
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+header:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff; /* Cambié el color del texto a blanco */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #009688;
+}
+
+#cover {
+    width: 100%;
+    height: 300px;
+    background: url('../img/portada.jpg') center/cover no-repeat;
+    position: relative;
+    opacity: 0.9; /* Ajusta este valor según tu preferencia (1 = sin transparencia, 0 = totalmente transparente) */
+}
+
+#cover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Uso de rgba para incluir la transparencia */
+    opacity: 0.5; /* Ajusta este valor según tu preferencia */
+}
+
+
+#profile {
+    text-align: center;
+    padding: 20px;
+}
+
+#social-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff; /* Cambié el color del texto a blanco */
+    font-size: 20px;
+}
+
+#main-content {
+    text-align: center;
+    padding: 20px;
+}
